@@ -50,16 +50,16 @@ margin: 100px 0px;
 }
 .left{
   position: absolute;
-  right:250px;
-  top:200px;
+  right:15.625rem;
+  top:12.5rem;
 }
 .right{
   position: absolute;
-  left: 250px;
-  top: 300px;
+  left:15.625rem;
+  top: 18.75rem;
 }
 .pic{
-  height: 125px;
+  height: 7.1825rem;
   border-radius: 50%;
 }
 hr{
