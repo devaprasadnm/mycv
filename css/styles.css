@@ -1,0 +1,135 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+background-color:  #effffb;
+}
+h1{
+    width: 27%;
+    margin: 0 auto 0 auto;
+font-family: 'Sacramento', cursive;}
+.top-container{
+  background-color: #e3fdfd;
+font-size: 1.5rem;
+color: #66BFBF;
+  padding:100px;
+}
+.middle-container{
+  margin:100px 0px;
+}
+
+.intro{
+
+  width: 40%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #77BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.profile{
+background-color: #effffb;
+
+}
+.skills{
+background-color: #ecfcff;
+margin: 100px 0px;
+
+}
+.p1{
+  text-decoration: underline;
+  font-weight: normal;
+}
+.left{
+  position: absolute;
+  right:250px;
+  top:200px;
+}
+.right{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+.pic{
+  height: 125px;
+  border-radius: 50%;
+}
+hr{
+border-style:dotted none none;
+border-color:grey;
+border-width:5px;
+width:6%;
+}
+.chilly{
+  height: 200px;
+  margin: 30px;
+}
+.comp{
+  height: 250px;
+  margin:10px 10px;
+}
+.linkpic{
+  height: 50px;
+    margin:10px 10px;
+
+}
+.fbpic{
+  height:50px;
+    margin:10px 10px;
+}
+.instapic{
+  height: 55px;
+  margin:10px 10px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #02a8a8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 100px 0px 0 0;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.copyright{
+  color: #11999E;
+  font-size:.75rem;
+}
